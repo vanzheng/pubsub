@@ -69,9 +69,12 @@
                         subscribers[j].callback(topicName, args);
                     }
                 }
-            }
 
-            return true;
+                return true;
+            }
+            else{
+                return false
+            }
         },
         /**
          * Subscribe a topic and handle callback.
