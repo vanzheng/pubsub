@@ -66,7 +66,7 @@
                     subLen = subscribers ? subscribers.length : 0;
 
                     for (var j = 0; j < subLen; j++) {
-                        subscribers[j].callback(topicName, args);
+                        subscribers[j].callback(args);
                     }
                 }
 
